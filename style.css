@@ -1,0 +1,62 @@
+#main
+{
+    height: 100%;
+    width: 100%;
+}
+#p
+{
+    font-size: 40px;
+    color: antiquewhite;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+}
+#button
+{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    margin-top: 300px;
+    margin-left: 400px;
+    background-color: green;
+    border-radius:10px;
+
+}
+#alink
+{
+    text-decoration: none;
+    text-align: center
+}
+
+
+@media(min-width:300px)and (max-width:500px)
+{
+
+#p
+{
+    font-size: 40px;
+    color: antiquewhite;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+}
+
+#button
+{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    margin-top: 300px;
+    margin-left: 100px;
+    background-color: green;
+    border-radius:10px;
+
+}
+
+#alink
+{
+    text-decoration: none;
+    text-align: center
+}
+
+}
