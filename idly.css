@@ -1,0 +1,372 @@
+#main
+{
+    height: 100%;
+    width: 100%;
+}
+
+#ptext{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#pdiv
+{
+    height: 700px;
+    width: 500px;
+    margin-left: 550px;
+    margin-top: 100px;
+    border: 5px solid green;
+    border-radius: 10px;
+}
+
+#btn1
+{
+    height: 80px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 500px;
+    background-color: green;
+    color: white;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+#pbtn
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#imgdiv 
+{
+    border: 4px green solid;
+    height: 500px;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 500px;
+}
+
+
+h1{
+    font-size: 60px;
+    color: green;
+    margin-top: 1px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+#btn2
+{
+    height: 80px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+ 
+}
+
+#button
+{
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+}
+
+#alink{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+@media(min-width:300px) and (max-width:450px)
+{
+ 
+    #ptext{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    #pdiv
+    {
+        height: 600px;
+        width: 340px;
+        margin-left: 10px;
+        margin-top: 50px;
+        border: 5px solid red;
+        border-radius: 10px;
+    }
+  
+      
+    #imgdiv 
+    {
+        border: 4px green solid;
+        height: 400px;
+        width: 300px;
+        border-radius: 20px;
+        margin-left: 50px;
+    }
+    
+    #img1
+    {
+        height: 200px;
+    }
+    
+    h1{
+        font-size: 60px;
+        color: green;
+        margin-top: 1px;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    
+  
+    #btn1
+    {
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        margin-left: 100px;
+        background-color: green;
+        color: white;
+        display: inline-block;
+        margin-top: 100px;
+    }
+  
+
+    #btn2
+    {
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+        margin-top: 20px;
+        margin-left: 100px;
+     
+    }
+    
+    #pbtn
+    {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 10px;
+        text-align: center;
+    }
+  
+    #button
+    {
+        display: flex;
+        height: 600px;
+        flex-direction: column;
+    }
+    
+    #alink{
+        text-decoration: none;
+        color: white;
+    
+    }
+    
+
+}
+
+
+@media(min-width:450px) and (max-width:650px)
+{
+ 
+    #ptext{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    #pdiv
+    {
+        height: 600px;
+        width: 340px;
+        margin-left: 10px;
+        margin-top: 50px;
+        border: 5px solid red;
+        border-radius: 10px;
+    }
+  
+      
+    #imgdiv 
+    {
+        border: 4px green solid;
+        height: 400px;
+        width: 300px;
+        border-radius: 20px;
+        margin-left: 50px;
+    }
+    
+    #img1
+    {
+        height: 200px;
+    }
+    
+    h1{
+        font-size: 60px;
+        color: green;
+        margin-top: 1px;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    
+  
+    #btn1
+    {
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        margin-left: 100px;
+        background-color: green;
+        color: white;
+        display: inline-block;
+        margin-top: 100px;
+    }
+  
+
+    #btn2
+    {
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+        margin-top: 20px;
+        margin-left: 100px;
+     
+    }
+    
+    #pbtn
+    {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 10px;
+        text-align: center;
+    }
+  
+    #button
+    {
+        display: flex;
+        height: 600px;
+        flex-direction: column;
+    }
+    
+    #alink{
+        text-decoration: none;
+        color: white;
+    
+    }
+    
+
+}
+
+@media(min-width:700px) and (max-width:950px)
+{
+ 
+    #ptext{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    #pdiv
+    {
+        height: 600px;
+        width: 400px;
+        margin-left: 170px;
+        margin-top: 50px;
+        border: 5px solid red;
+        border-radius: 10px;
+    }
+  
+      
+    #imgdiv 
+    {
+        border: 4px green solid;
+        height: 500px;
+        width: 400px;
+        border-radius: 20px;
+        margin-left: 170px;
+    }
+    
+    #img1
+    {
+        height: 250px;
+    }
+    
+    h1{
+        font-size: 60px;
+        color: green;
+        margin-top: 1px;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+    
+  
+    #btn1
+    {
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        margin-left: 250px;
+        background-color: green;
+        color: white;
+        display: inline-block;
+        margin-top: 100px;
+    }
+  
+
+    #btn2
+    {
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+        margin-top: 20px;
+        margin-left: 250px;
+     
+    }
+    
+    #pbtn
+    {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 10px;
+        text-align: center;
+    }
+  
+    #button
+    {
+        display: flex;
+        height: 800px;
+        flex-direction: column;
+    }
+    
+    #alink{
+        text-decoration: none;
+        color: white;
+    
+    }
+    
+
+}

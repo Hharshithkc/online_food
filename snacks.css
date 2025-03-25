@@ -1,0 +1,1366 @@
+#main
+{
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    background-image: url("https://th.bing.com/th/id/OIP.S1_GfdIscp4ZKvHy_7uOIwHaFy?w=248&h=194&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-size: cover;
+}
+#nav
+{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(30, 255, 0);
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+#exit
+{
+    mix-blend-mode:darken;
+    margin-left: 600px;
+}
+#pnav
+{
+    font-size: 70px;
+    font-weight: 900;
+    margin-top: 0px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-left: 500px;
+
+}
+
+
+
+#menu
+{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+#row1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 400px;
+
+}
+
+#f1
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#f2
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#f3
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+
+#row2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 400px;
+
+}
+
+#f4
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#f5
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#f6
+{
+    height: 350px;
+    border-radius: 20px;
+    width: 300px;
+    background-color: aqua;
+}
+
+#row2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 400px;
+
+}
+
+#f4
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#f5
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#f6
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+#f7
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+#f8
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+#row3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 400px;
+
+}
+
+#f9
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#f10
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#f11
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+#f12
+{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+
+#pinf
+{
+    font-size: 50px;
+    margin-top: 10px;
+    text-transform:capitalize;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+/* responsivness  for 300px to 400px*/
+
+
+@media(min-width:300px) and (max-width:400px)
+{
+    #main
+    {
+        height: 100%;
+        width: 100%;
+        z-index: 3;
+        background-color: aqua;
+        background-size: contain;
+    
+    }
+
+    
+    #nav
+    {
+    height: 40px;
+    width: 350px;
+    align-content: center;
+    align-self: center;
+
+    background-color: aqua;
+    border-radius: 3px;
+    display: flex;
+    
+    }
+
+    #pnav
+    {
+        font-size: 30px;
+        font-weight: 900;
+        margin-top: 0px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-left: 80px;
+    
+    }
+    
+    #exit   
+    {
+    mix-blend-mode:darken;
+    margin-left: 100px;
+    height: 40px;
+    }
+
+    #menu
+    {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* background-color: black;
+     */
+    }
+
+    #imginf
+    {
+        height: 180px;
+        width: 200px;
+    }
+    
+    #row1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1100px;
+    
+    }
+    
+    #f1
+    {
+        height: 220px;
+        width: 200px;
+        border-radius: 10px;
+        align-content: center;
+        align-self: center;
+        background-color: aqua;
+    }
+    #f2
+    {
+        height: 220px;
+        width: 200px;
+        align-content: center;
+        align-self: center;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f3
+    {
+        height: 220px;
+        width: 200px;
+        align-content: center;
+        align-self: center;
+
+        border-radius: 10px;
+        background-color: aqua;
+    }
+
+    
+    #f4
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #pinf
+    {
+        font-size: 20px;
+        margin-top: 1px;
+        text-transform:capitalize;
+        text-align: center;
+        font-weight: 600;
+    }
+        
+    
+
+    #row2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1100px;
+    
+    }
+    
+    
+    #f5
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f6
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f7
+    {
+        height: 220px;
+        width: 200px;
+        align-content: center;
+        align-self: center;
+
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f8
+    {
+        height: 220px;
+
+        align-content: center;
+        align-self: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    
+
+
+
+    #row3
+    {
+        display: flex;
+        flex-direction: column;
+    
+        height: 1400px;
+    
+    }
+    
+    #f9
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f10
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f11
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f12
+    {
+        height: 220px;
+
+        align-content: center;
+        align-self: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+
+
+
+}
+
+
+
+
+/* responsivness  for 400px to 500px*/
+
+
+@media(min-width:400px) and (max-width:500px)
+{
+    #main
+    {
+        height: 100%;
+        width: 100%;
+        z-index: 3;
+        background-color: aqua;
+        background-size: contain;
+    
+    }
+
+    
+    #nav
+    {
+    height: 70px;
+    width: 400px;
+    align-content: center;
+    align-self: center;
+    background-color: aqua;
+    border-radius: px;
+    display: flex;
+    
+    }
+
+    #pnav
+    {
+        font-size: 40px;
+        font-weight: 900;
+        margin-top: 10px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-left: 80px;
+    
+    }
+    
+    #exit   
+    {
+    mix-blend-mode:darken;
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 50px;
+    }
+
+    #menu
+    {
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* background-color: black;
+     */
+    }
+
+    #imginf
+    {
+        height: 180px;
+        width: 200px;
+    }
+    
+    #row1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1100px;
+    
+    }
+    
+    #f1
+    {
+        height: 220px;
+        width: 200px;
+        border-radius: 10px;
+        align-content: center;
+        align-self: center;
+        background-color: aqua;
+    }
+    #f2
+    {
+        height: 220px;
+        width: 200px;
+        align-content: center;
+        align-self: center;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f3
+    {
+        height: 220px;
+        width: 200px;
+        align-content: center;
+        align-self: center;
+
+        border-radius: 10px;
+        background-color: aqua;
+    }
+
+    
+    #f4
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #pinf
+    {
+        font-size: 30px;
+        margin-top: 1px;
+        text-transform:capitalize;
+        text-align: center;
+        font-weight: 600;
+    }
+        
+    
+    #row2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1100px;
+    
+    }
+    
+    
+    #f5
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f6
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f7
+    {
+        height: 220px;
+        width: 200px;
+        align-content: center;
+        align-self: center;
+
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f8
+    {
+        height: 220px;
+
+        align-content: center;
+        align-self: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    
+
+
+
+    #row3
+    {
+        display: flex;
+        flex-direction: column;
+        height: 1400px;
+        margin-top: 1px;
+    
+    }
+    
+    #f9
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f10
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f11
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f12
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+
+
+
+}
+
+
+
+
+
+/* responsivness  for 400px to 550px*/
+
+
+@media(min-width:500px) and (max-width:650px)
+{
+    #main
+    {
+        height: 100%;
+        width: 100%;
+        z-index: 3;
+        background-color: aqua;
+        background-size: contain;
+    
+    }
+
+    
+    #nav
+    {
+    height: 70px;
+    width: 510px;
+    align-content: center;
+    align-self: center;
+    background-color: aqua;
+    border-radius: px;
+    display: flex;
+    
+    }
+
+    #pnav
+    {
+        font-size: 40px;
+        font-weight: 900;
+        margin-top: 10px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-left: 80px;
+    
+    }
+    
+    #exit   
+    {
+    mix-blend-mode:darken;
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 50px;
+    }
+
+    #menu
+    {
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* background-color: black;
+     */
+    }
+
+    #imginf
+    {
+        height: 200px;
+        width: 220px;
+    }
+    
+    #row1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1100px;
+    
+    }
+    
+    #f1
+    {
+        height: 250px;
+        width: 220px;
+        border-radius: 10px;
+        align-content: center;
+        align-self: center;
+        background-color: aqua;
+    }
+    #f2
+    {
+        height: 250px;
+        width: 220px;
+        align-content: center;
+        align-self: center;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f3
+    {
+        height: 250px;
+        width: 220px;
+        align-content: center;
+        align-self: center;
+
+        border-radius: 10px;
+        background-color: aqua;
+    }
+
+    
+    #f4
+    {
+        height: 250px;
+        align-content: center;
+        align-self: center;
+        width: 220px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #pinf
+    {
+        font-size: 30px;
+        margin-top: 1px;
+        text-transform:capitalize;
+        text-align: center;
+        font-weight: 600;
+    }
+        
+    
+    #row2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1100px;
+    
+    }
+    
+    
+    #f5
+    {
+        height: 250px;
+        align-content: center;
+        align-self: center;
+
+        width: 220px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f6
+    {
+        height: 250px;
+        align-content: center;
+        align-self: center;
+
+        width: 220px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f7
+    {
+        height: 250px;
+        width: 220px;
+        align-content: center;
+        align-self: center;
+
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f8
+    {
+        height: 250px;
+
+        align-content: center;
+        align-self: center;
+        width: 220px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    
+
+
+
+    #row3
+    {
+        display: flex;
+        flex-direction: column;
+        height: 1400px;
+        margin-top: 1px;
+    
+    }
+    
+    #f9
+    {
+        height: 250px;
+        align-content: center;
+        align-self: center;
+        width: 220px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f10
+    {
+        height: 250px;
+        align-content: center;
+        align-self: center;
+        width: 220px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f11
+    {
+        height: 250px;
+        align-content: center;
+        align-self: center;
+
+        width: 220px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f12
+    {
+        height: 250px;
+        align-content: center;
+        align-self: center;
+        width: 220px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+
+
+
+}
+
+
+/* responsivness  for 700px to 800px*/
+
+
+@media(min-width:700px) and (max-width:800px)
+{
+    #main
+    {
+        height: 100%;
+        width: 100%;
+        z-index: 3;
+        background-color: aqua;
+        background-size: contain;
+    
+    }
+
+    
+    #nav
+    {
+    height: 80px;
+    width: 730px;
+    align-content: center;
+    align-self: center;
+    background-color: aqua;
+    border-radius: px;
+    display: flex;
+    
+    }
+
+    #pnav
+    {
+        font-size: 50px;
+        font-weight: 900;
+        margin-top: 10px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-left: 200px;
+    
+    }
+    
+    #exit   
+    {
+    mix-blend-mode:darken;
+    margin-left: 200px;
+    margin-top: 10px;
+    height: 50px;
+    }
+
+    #menu
+    {
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* background-color: black;
+     */
+    }
+
+    #imginf
+    {
+        height: 220px;
+        width: 250px;
+    }
+    
+    #row1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1300px;
+    
+    }
+    
+    #f1
+    {
+        height: 270px;
+        width: 250px;
+        border-radius: 10px;
+        align-content: center;
+        align-self: center;
+        background-color: aqua;
+    }
+    #f2
+    {
+        height: 270px;
+        width: 250px;
+        align-content: center;
+        align-self: center;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f3
+    {
+        height: 270px;
+        width: 250px;
+        align-content: center;
+        align-self: center;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+
+    
+    #f4
+    {
+        height: 270px;
+        align-content: center;
+        align-self: center;
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #pinf
+    {
+        font-size: 30px;
+        margin-top: 1px;
+        text-transform:capitalize;
+        text-align: center;
+        font-weight: 600;
+    }
+        
+    
+    #row2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1300px;
+    
+    }
+    
+    
+    #f5
+    {
+        height: 270px;
+        align-content: center;
+        align-self: center;
+
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f6
+    {
+        height: 270px;
+        align-content: center;
+        align-self: center;
+
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f7
+    {
+        height: 270px;
+        width: 250px;
+        align-content: center;
+        align-self: center;
+
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f8
+    {
+        height: 270px;
+
+        align-content: center;
+        align-self: center;
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    
+
+
+
+    #row3
+    {
+        display: flex;
+        flex-direction: column;
+        height: 1500px;
+        margin-top: 1px;
+    
+    }
+    
+    #f9
+    {
+        height: 270px;
+        align-content: center;
+        align-self: center;
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f10
+    {
+        height: 270px;
+        align-content: center;
+        align-self: center;
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f11
+    {
+        height: 270px;
+        align-content: center;
+        align-self: center;
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f12
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+
+
+
+}
+
+
+@media(min-width:800px) and (max-width:950px)
+{
+    #main
+    {
+        height: 100%;
+        width: 100%;
+        z-index: 3;
+        background-color: aqua;
+        background-size: contain;
+
+    }
+
+    
+    #nav
+    {
+    height: 80px;
+    width: 820px;
+    align-content: center;
+    align-self: center;
+    background-color: aqua;
+    border-radius: px;
+    display: flex;
+    
+    }
+
+    #pnav
+    {
+        font-size: 50px;
+        font-weight: 900;
+        margin-top: 10px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-left: 200px;
+    
+    }
+    
+    #exit   
+    {
+    mix-blend-mode:darken;
+    margin-left: 200px;
+    margin-top: 10px;
+    height: 50px;
+    }
+
+    #menu
+    {
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* background-color: black;
+     */
+    }
+
+    #imginf
+    {
+        height: 220px;
+        width: 250px;
+    }
+    
+    #row1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1300px;
+    
+    }
+    
+    #f1
+    {
+        height: 270px;
+        width: 250px;
+        border-radius: 10px;
+        align-content: center;
+        align-self: center;
+        background-color: aqua;
+    }
+    #f2
+    {
+        height: 270px;
+        width: 250px;
+        align-content: center;
+        align-self: center;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f3
+    {
+        height: 270px;
+        width: 250px;
+        align-content: center;
+        align-self: center;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+
+    
+    #f4
+    {
+        height: 270px;
+        align-content: center;
+        align-self: center;
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #pinf
+    {
+        font-size: 30px;
+        margin-top: 1px;
+        text-transform:capitalize;
+        text-align: center;
+        font-weight: 600;
+    }
+        
+    
+    #row2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1300px;
+    
+    }
+    
+    
+    #f5
+    {
+        height: 270px;
+        align-content: center;
+        align-self: center;
+
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f6
+    {
+        height: 270px;
+        align-content: center;
+        align-self: center;
+
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f7
+    {
+        height: 270px;
+        width: 250px;
+        align-content: center;
+        align-self: center;
+
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f8
+    {
+        height: 270px;
+
+        align-content: center;
+        align-self: center;
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    
+
+
+
+    #row3
+    {
+        display: flex;
+        flex-direction: column;
+        height: 1500px;
+        margin-top: 1px;
+    
+    }
+    
+    #f9
+    {
+        height: 270px;
+        align-content: center;
+        align-self: center;
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f10
+    {
+        height: 270px;
+        align-content: center;
+        align-self: center;
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    #f11
+    {
+        height: 270px;
+        align-content: center;
+        align-self: center;
+        width: 250px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+    #f12
+    {
+        height: 220px;
+        align-content: center;
+        align-self: center;
+        width: 200px;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+    
+
+
+
+}

@@ -1,0 +1,266 @@
+#main
+{
+    height: 100%;
+    width: 100%;
+
+}
+
+#navimg2
+{
+    height: 400px;
+    margin-top:10px;
+    margin-left: 550px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#btn2
+{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    margin-left: 500px;
+    border-radius: 10px;
+    background-color:rgb(26, 207, 26)
+}
+#pbtn
+{
+    color: antiquewhite;
+    font-size: 40px;
+    margin-left: 40px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#alink
+{
+    text-decoration: none;
+}
+
+
+
+@media(min-width:300px) and (max-width:400px)
+{
+
+    #btn2
+    {
+        height: 100px;
+        width: 200px;
+        display: flex;
+        margin-top: 40px;
+        margin-left: 70px;
+        border-radius: 10px;
+        background-color:rgb(2, 253, 2)
+    }
+    #pbtn
+    {
+        color: antiquewhite;
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    
+    #navimg2
+    {
+        height: 250px;
+        width: 200px;
+        margin-left:70px;
+      
+    }
+    
+    h1{
+        font-size: 30px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    
+
+}
+
+@media(min-width:400px) and (max-width:500px)
+{
+
+    #btn2
+    {
+        height: 100px;
+        width: 200px;
+        display: flex;
+        margin-top: 40px;
+        margin-left: 90px;
+        border-radius: 10px;
+        background-color:rgb(2, 253, 2)
+    }
+    #pbtn
+    {
+        color: antiquewhite;
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    
+    #navimg2
+    {
+        height: 250px;
+        width: 200px;
+        margin-left:70px;
+      
+    }
+    
+    h1{
+        font-size: 30px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    
+
+}
+
+@media(min-width:500px) and (max-width:600px)
+{
+
+    #btn2
+    {
+        height: 100px;
+        width: 200px;
+        display: flex;
+        margin-top: 40px;
+        margin-left: 90px;
+        border-radius: 10px;
+        background-color:rgb(2, 253, 2)
+    }
+    #pbtn
+    {
+        color: antiquewhite;
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    
+    #navimg2
+    {
+        height: 350px;
+        width: 300px;
+        margin-left:70px;
+      
+    }
+    
+    h1{
+        font-size: 30px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    
+  
+
+}
+
+@media(min-width:700px) and (max-width:800px)
+{
+
+    #btn2
+    {
+        height: 100px;
+        width: 200px;
+        display: flex;
+        margin-top: 40px;
+        margin-left:250px;
+        border-radius: 10px;
+        background-color:rgb(2, 253, 2)
+    }
+    #pbtn
+    {
+        color: antiquewhite;
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    
+    #navimg2
+    {
+        height: 350px;
+        width: 300px;
+        margin-left:200px;
+      
+    }
+    
+    h1{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 20px;
+        text-transform: capitalize;
+    }
+    
+    
+    
+    
+
+}
+
+@media(min-width:800px) and (max-width:950px)
+{
+
+   
+    #btn2
+    {
+        height: 100px;
+        width: 200px;
+        display: flex;
+        margin-top: 40px;
+        margin-left:350px;
+        border-radius: 10px;
+        background-color:rgb(2, 253, 2)
+    }
+    #pbtn
+    {
+        color: antiquewhite;
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    
+    
+    #navimg2
+    {
+        height: 400px;
+        width: 350px;
+        margin-left:300px;
+      
+    }
+    
+    h1{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 20px;
+        text-transform: capitalize;
+    }
+    
+
+}
+
